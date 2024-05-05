@@ -59,8 +59,9 @@ while(!feof(file)) {
     }
     else
     {
+    	strcpy(l->nom,nom);
     	//Lecture du nouveau livre
-        printf("Nom de l'utilisateur :%s \n ",nom);
+        printf("Nom de l'utilisateur : %s \n ",nom);
         printf("Titre du livre  : \n ");
         scanf("%s", l->titre);
         printf("Auteur du livre : \n ");
