@@ -101,7 +101,7 @@ void afficherlivreparid()
         printf("Impossible d'ouvrir le fichier\n");
         exit(1);
     }
-//lire l'étudiant
+//lire l'identifiant
     printf("Donner l'identifiant : ");
     scanf("%d", &idd);
 //Lecture de chaque livre du fichier
